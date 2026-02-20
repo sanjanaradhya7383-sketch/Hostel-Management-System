@@ -1,0 +1,193 @@
+/* ========== GLOBAL ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* ========== AUTH (LOGIN / REGISTER) ========== */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: #ffffff;
+    width: 380px;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.login-card h2 {
+    margin-bottom: 10px;
+    color: #4b3cc4;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #444;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #667eea;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #556cd6;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ========== DASHBOARD COMMON ========== */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dashboard-header h2 {
+    color: #4b3cc4;
+}
+
+.logout-btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background: #e63e3e;
+}
+
+/* ========== TABLE ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #f3f4ff;
+}
+
+th, td {
+    padding: 14px 12px;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid #eee;
+}
+
+/* ========== STATUS BADGES ========== */
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status-raised {
+    background: #ffe0e0;
+    color: #d80000;
+}
+
+.status-progress {
+    background: #fff3cd;
+    color: #b8860b;
+}
+
+.status-resolved {
+    background: #e0ffe7;
+    color: #0f8a3d;
+}
+
+/* ========== IMAGES ========== */
+td img {
+    width: 90px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+td img:hover {
+    transform: scale(1.6);
+}
+
+/* ========== LINKS ========== */
+.update-link {
+    color: #4b3cc4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.update-link:hover {
+    text-decoration: underline;
+}
+
+/* ========== INFO BOX (UPDATE PAGE) ========== */
+.info-box {
+    background: #f3f4ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
